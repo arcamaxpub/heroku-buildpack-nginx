@@ -91,7 +91,6 @@ if [[ ! -f "${CACHE_DIR}/bin/nginx" ]]; then
     --with-zlib=../zlib-${ZLIB_VERSION} \
     --with-pcre \
     --with-cc-opt="-O2 -static -static-libgcc" \
-    --with-http_ssl_module \
     --with-http_auth_request_module \
     --without-http_ssi_module \
     --without-http_userid_module \
